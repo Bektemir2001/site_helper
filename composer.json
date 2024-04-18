@@ -6,8 +6,11 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "babenkoivan/elastic-scout-driver-plus": "^4.7",
+        "elasticsearch/elasticsearch": "^8.13",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
+        "laravel/scout": "^10.8",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {

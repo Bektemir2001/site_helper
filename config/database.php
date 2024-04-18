@@ -121,7 +121,11 @@ return [
     | the migrations on disk haven't actually been run on the database.
     |
     */
-
+    'elasticsearch' => [
+        'hosts' => [
+            'localhost:9200' // Замените этим вашим реальным хостом и портом Elasticsearch
+        ]
+    ],
     'migrations' => [
         'table' => 'migrations',
         'update_date_on_publish' => true,
